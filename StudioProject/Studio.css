@@ -1,0 +1,31 @@
+#Picture{
+        background-image: url("AvicNdugu.jpeg");
+    background-repeat: no-repeat, repeat;
+    background-color: #cccccc;
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+  #topbar {
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  #topbar a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #topbar a:hover {
+    border-top: 3px solid green;
+    
+  }
+  
+  

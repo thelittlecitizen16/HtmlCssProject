@@ -1,0 +1,41 @@
+body{
+    background-color: #A9D7D1;
+    font-family: sans-serif;
+}
+#title{
+    font-size: 2.5em;
+    text-align: center;
+    font-family: sans-serif;
+}
+#description{
+    text-align: center;
+    font-family: sans-serif;
+}
+#SurveyForm{
+    background-color: white;
+    padding: 10px 0px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 10px 20px;
+    justify-content: center;
+}
+.row{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 0px 20px;
+  }
+label{
+    text-align: right;
+    margin: 10px 0px;
+    align-self:center;
+  }
+  .inptRight {
+    width: 60%;
+    height: 35px;
+  }
+  
+  .selectRight {
+    width: 30%;
+    height: 35px;
+  }
+  

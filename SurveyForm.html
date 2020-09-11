@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="SurveyForm.css">
+    </head>
+    <body>
+        <h1 id="title">Survey Form</h1>  
+        <section id="SurveyForm">
+        <p id="description">Let us know how we cn improve freeCodeCamp</p>      
+        <div class="row">
+         <label  id="name-label" for="Name">* Name:</label>
+         <input class="inptRight" type="text" required id="name" name="user_name" placeholder="Enter name here">  
+        </div>
+        <div class="row">
+            <label id="email-label" for="Email">* Email:</label>
+            <input class="inptRight" type="email" required id="email" name="user_email" placeholder="Enter email here">   
+        </div class="row">
+        <div class="row">
+            <label id="Aae-label" for="Age">* Age:</label>
+            <input class="inptRight" type="number" required id="Age" name="user_age" placeholder="Age" min="12" max="120"> 
+        </div>
+        <div class="row">
+            <label for="role">Which option best describe your current role?</label>
+            <select  class="selectRight" id="roledDopdown">
+        <option value="University">Student</option>
+        <option value="College">College</option>
+        <option value="Secondary">High School</option>  
+        <option value="Secondary">Work</option>  
+        <option value="None">None</option>
+        </select>
+        </div>
+        <div class="row">
+            <label for="recommend">* How likely is that you would recommend freeodeCamp to a firend?</label>
+            <p>
+              <input type="radio" name="recommend" value="Definitely"> Definitely<br>
+              <input type="radio" name="recommend" value="Other"> Maybe<br>
+              <input type="radio" name="recommend" value="Not Sure"> Not Sure
+            </p>
+          </div>
+          <div class="row">
+            <label for="FCC">What do you like mosu in FCC:</label>
+            <select class="selectRight" id="FCC">
+        <option value="Select an option">Select an option</option>  
+        </select>
+        </div>
+        <div class="row">
+            <label for="recommend">Things that should be improved in the futurre (Check all that apply:)</label>
+            <p>
+              <input type="checkbox" name="Front-end Projects" value="Front-end Projects"> Definitely<br>
+              <input type="checkbox" name="Back-end Projects" value="Back-end Projects"> Maybe<br>
+              <input type="checkbox" name="Data Visualization" value="Data Visualization"> Not Sure
+            </p>
+          </div>
+    </section>
+</body>
+</html>
