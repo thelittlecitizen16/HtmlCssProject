@@ -10,8 +10,18 @@
     background-color: white;
     overflow: hidden;
   }
+  #logo{
+    background-image: url("logo.png");
+    background-repeat: no-repeat, repeat;
+    height: 20px; 
+    background-position: center; 
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 12px 45px;
+}
   
-  #topbar a {
+  .herf {
     float: right;
     display: block;
     color: black;
